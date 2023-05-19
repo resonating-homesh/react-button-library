@@ -1,0 +1,29 @@
+{
+  "name": "react_component_library",
+  "version": "1.0.0",
+  "description": "react component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Homesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.2.6",
+    "react": "^18.2.0",
+    "rollup": "^3.22.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "typescript": "^5.0.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.5.2"
+  }
+}
